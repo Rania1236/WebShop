@@ -1,0 +1,17 @@
+OrderDetailedPage.class
+WishlistPage.class
+ComparePage.class
+ProductDetailsPage.class
+PageBase.class
+RegisterPage.class
+ShoppingCartPage.class
+SearchPage.class
+EmailPage.class
+MyAccountPage.class
+org\example\Main.class
+ContactUsPage.class
+ProductReviewPage.class
+LoginPage.class
+HomePage.class
+org\example\PageBase.class
+CheckoutPage.class

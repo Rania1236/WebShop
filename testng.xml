@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="D:/iti/WebShop">
+
+                <classes>
+                    <class name="AddProductReviewTest"/>
+                    <class name="AddProductToCompareTest"/>
+                    <class name="AddProductToShoppingCartTest"/>
+                    <class name="AddProductToWishlistTest"/>
+                    <class name="CheckoutProductAsAGuestTest"/>
+                    <class name="ContactUsTest"/>
+                    <class name="EmailFriendTest"/>
+                    <class name="MyAccountTest"/>
+                    <class name="ProductHoverMenuTest"/>
+                    <class name="RegisterPageTest"/>
+                    <class name="SearchProductTest"/>
+                </classes>
+    </test>
+</suite>

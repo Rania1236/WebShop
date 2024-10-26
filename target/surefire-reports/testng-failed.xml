@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="10" parallel="methods" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="RegisterPageTest">
+        <methods>
+          <include name="validRegisterTC"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- RegisterPageTest -->
+      <class name="SearchProductTest">
+        <methods>
+          <include name="UserCanSearchForProduct"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- SearchProductTest -->
+      <class name="AddProductToShoppingCartTest">
+        <methods>
+          <include name="UserCanSearchForProduct"/>
+          <include name="UserCanAddProductToShoppingCart"/>
+          <include name="quit"/>
+          <include name="UserCanRemoveProductFromCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- AddProductToShoppingCartTest -->
+      <class name="AddProductToWishlistTest">
+        <methods>
+          <include name="UserCanAddProductToWishlist"/>
+          <include name="UserCanSearchForProduct"/>
+          <include name="UserCanRemoveProductFromWishlist"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- AddProductToWishlistTest -->
+      <class name="AddProductToCompareTest">
+        <methods>
+          <include name="UserCanCompareProducts"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- AddProductToCompareTest -->
+      <class name="ContactUsTest">
+        <methods>
+          <include name="quit"/>
+          <include name="UserCanUseContactUS"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ContactUsTest -->
+      <class name="AddProductReviewTest">
+        <methods>
+          <include name="RegisterUserCanReviewProduct"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="quit"/>
+          <include name="UserCanSearchForProduct"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- AddProductReviewTest -->
+      <class name="EmailFriendTest">
+        <methods>
+          <include name="RegisterUserCanSendProductToFriend"/>
+          <include name="UserCanSearchForProduct"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="quit"/>
+          <include name="validRegisterTC"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- EmailFriendTest -->
+      <class name="MyAccountTest">
+        <methods>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="validRegisterTC"/>
+          <include name="quit"/>
+          <include name="validLoginTC"/>
+          <include name="RegisteredUserCanChangePassword"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- MyAccountTest -->
+      <class name="CheckoutProductAsAGuestTest">
+        <methods>
+          <include name="quit"/>
+          <include name="confirmOrder"/>
+          <include name="CheckOUt"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CheckoutProductAsAGuestTest -->
+      <class name="ProductHoverMenuTest">
+        <methods>
+          <include name="UserCanSelectSubCategoryFromMainMenu"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ProductHoverMenuTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
